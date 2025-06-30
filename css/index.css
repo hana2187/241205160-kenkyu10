@@ -17,6 +17,14 @@ nav.floating {
     align-items: center;
 }
 
+
+.m-plus-1-<uniquifier> {
+  font-family: "M PLUS 1", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 .first-view-text {
     width: 100%;
     max-width: 1200px;
