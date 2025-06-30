@@ -105,7 +105,7 @@ img {
 }
 
 .site-menu ul li a {
-    font-family: "Hachi Maru Pop", cursive;
+    font-family: "Hachi Maru Pop";
 }
 
 @media (max-width: 800px) {
