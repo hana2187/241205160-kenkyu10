@@ -105,7 +105,7 @@ img {
 }
 
 .site-menu ul li a {
-    font-family: "Hachi Maru Pop";
+    font-family: "Potta One", system-ui;
 }
 
 @media (max-width: 800px) {
