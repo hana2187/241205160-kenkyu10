@@ -71,6 +71,27 @@
     margin-top: 25px;
 }
 
+.image-container {
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+.image-container.align-right {
+  text-align: right;
+}
+
+.image-container.align-center {
+  text-align: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*
 .img-float-left{
     float:left;
     margin:0 1em 1em 0;
@@ -93,6 +114,7 @@
     max-width: 40%;
     height: auto;
 }
+*/
 
 /*
 .movie {
