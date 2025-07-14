@@ -88,56 +88,14 @@
     object-fit: cover;
     min-width: 150px;
     border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
 }
 
-/*
-.image-container {
-    text-align: center;
-    margin-bottom: 1em;
+/* マウスオーバー時に画像を1.05倍に拡大 */
+.gallery-flex img:hover {
+    transform: scale(1.05);
 }
 
-.image-container.align-right {
-    text-align: right;
-}
-
-.image-container.align-left {
-    text-align: left;
-}
-
-.image-container img {
-    max-width: 40%;
-    width: auto;
-    height: auto;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 1em auto;
-}
-*/
-
-/*
-.img-float-left{
-    float:left;
-    margin:0 1em 1em 0;
-}
-
-.img-float-left img{
-    display: flex;
-    border-radius: 10px;
-    max-width: 40%;
-    height: auto;
-}
-
-.img-float-right{
-    float:right;
-    margin:0 0 1em 1em;
-}
-.img-float-right img{
-    display: flex;
-    border-radius: 10px;
-    max-width: 40%;
-    height: auto;
-}
-*/
 
 /*
 .movie {
