@@ -37,8 +37,8 @@
 }
 
 .feature-text {
-    max-width: 500px;
-    margin-right: 40px;
+    max-width: 800px;
+    margin-right: 20px;
 }
 
 .reverse {
@@ -46,7 +46,7 @@
 }
 
 .reverse .feature-text {
-    margin-left: 40px;
+    margin-left: 80px;
     margin-right: 0;
 }
 
@@ -82,7 +82,7 @@
 .gallery-flex img {
     max-width: 45%;
     height: auto;
-    margin: 0.5em 0.5em;
+    margin: 2em 2em;
     flex-grow: 1;
     flex-shrink: 1;
     object-fit: cover;
