@@ -82,7 +82,7 @@
 .gallery-flex img {
     max-width: 45%;
     height: auto;
-    margin: 0.5em 0.5em;
+    margin: 0.2em 0.2em;
     flex-grow: 1;
     flex-shrink: 1;
     object-fit: cover;
