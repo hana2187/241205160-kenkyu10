@@ -72,23 +72,25 @@
 }
 
 .image-container {
-  text-align: left;
-  margin-bottom: 1em;
+    text-align: center;
+    margin-bottom: 1em;
 }
 
 .image-container.align-right {
-  text-align: right;
+    text-align: right;
 }
 
-.image-container.align-center {
-  text-align: center;
+.image-container.align-left {
+    text-align: left;
 }
 
 .image-container img {
-  max-width: 40%;
-  height: auto;
-  display: inline-block;
-  vertical-align: middle;
+    max-width: 40%;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 1em auto;
 }
 
 /*
