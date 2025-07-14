@@ -142,3 +142,9 @@
 .footer {
     margin-top: 100px;
 }
+
+.access-link-container {
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
