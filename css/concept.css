@@ -71,6 +71,20 @@
     margin-top: 25px;
 }
 
+.gallery-flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+}
+
+.gallery-flex img {
+    max-width: 45%;
+    height: auto;
+    margin: 0.5em;
+}
+
+/*
 .image-container {
     text-align: center;
     margin-bottom: 1em;
@@ -92,6 +106,7 @@
     vertical-align: middle;
     margin: 1em auto;
 }
+*/
 
 /*
 .img-float-left{
