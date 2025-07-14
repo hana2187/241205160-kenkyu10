@@ -73,26 +73,24 @@
 
 .img-float-left{
     float:left;
-    padding:0 !important;
     margin:0 1em 1em 0;
 }
 
 .img-float-left img{
     display: flex;
     border-radius: 10px;
-    max-width: 50%;
+    max-width: 40%;
     height: auto;
 }
 
 .img-float-right{
     float:right;
-    padding:0 !important;
     margin:0 0 1em 1em;
 }
 .img-float-right img{
     display: flex;
     border-radius: 10px;
-    max-width: 50%;
+    max-width: 40%;
     height: auto;
 }
 
