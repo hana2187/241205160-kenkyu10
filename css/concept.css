@@ -36,9 +36,19 @@
     align-items: flex-start;
 }
 
-.feature-text {
+.feature-text-right {
     max-width: 500px;
     margin-right: 40px;
+}
+
+.feature-text-left {
+    max-width: 500px;
+    margin-left: 40px;
+}
+
+.feature-text-cemter {
+    max-width: 500px;
+    margin-center: 40px;
 }
 
 .reverse {
