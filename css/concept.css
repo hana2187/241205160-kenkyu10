@@ -80,7 +80,7 @@
 .img-float-left img{
     display: flex;
     border-radius: 10px;
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
 }
 
@@ -92,7 +92,7 @@
 .img-float-right img{
     display: flex;
     border-radius: 10px;
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
 }
 
