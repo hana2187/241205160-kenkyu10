@@ -60,7 +60,7 @@ img {
 }
 
 .site-menu ul li a {
-    font-family: 'Cherry Bomb One', cursive;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 @media (max-width: 800px) {
@@ -160,6 +160,7 @@ img {
     font-size: 14pt;
     font-weight: bold;
     margin-top: 90px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 @media (max-width: 800px) {
