@@ -120,3 +120,20 @@
     margin-top: 10px;
     border-radius: 10px;
 }
+
+/* すべての画像に共通のスタイル */
+.feature-text img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* パソコン画面（横幅が768px以上）の場合はサイズを抑える */
+@media screen and (min-width: 768px) {
+    .feature-text img {
+        width: 60%; /* 例えば画面の60%に制限 */
+        display: block;
+        margin: 10px auto; /* 中央寄せ */
+    }
+}
