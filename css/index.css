@@ -105,7 +105,7 @@ img {
 }
 
 .site-menu ul li a {
-    font-family: "Potta One", system-ui;
+    font-family: 'Mochiy Pop One', sans-serif !important;
 }
 
 @media (max-width: 800px) {
