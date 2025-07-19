@@ -150,9 +150,10 @@ img {
 }
 
 .footer-logo {
-    display: block;
-    width: 235px;
-    margin-top: 90px;
+  display: block;
+  max-width: 100%;
+  width: 235px;
+  margin-top: 90px;
 }
 
 .copyright {
@@ -194,6 +195,7 @@ img {
 
     .main {
         padding-top: 50px;
+        padding: 0 1em;
     }
 
     .footer-logo {
