@@ -51,7 +51,8 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .map iframe {
-    height: 250px;
+  .map-grid {
+    grid-template-columns: 1fr;
   }
 }
+
