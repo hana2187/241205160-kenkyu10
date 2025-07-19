@@ -150,10 +150,11 @@ img {
 }
 
 .footer-logo {
-  display: block;
-  max-width: 100%;
-  width: 235px;
-  margin-top: 90px;
+    display: block;
+    max-width: 100%;
+    width: 235px;
+    margin-top: 90px;
+    font-family: 'Mochiy Pop One', sans-serif;
 }
 
 .copyright {
