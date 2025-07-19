@@ -108,6 +108,10 @@ img {
     font-family: 'Mochiy Pop One', sans-serif !important;
 }
 
+.site-title {
+  font-family: 'Mochiy Pop One', sans-serif;
+}
+
 @media (max-width: 800px) {
     .site-menu ul {
         display: block;
