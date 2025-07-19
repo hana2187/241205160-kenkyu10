@@ -18,7 +18,7 @@
 .map {
     width: 100%;
     max-width: 930px;
-    margin: 0 auto;
+    margin: 75px auto 0 auto;
     padding: 0 1em;
     box-sizing: border-box;
 }
@@ -31,8 +31,8 @@
 .map iframe {
   width: 100%;
   height: 300px;
-  border: none;
-  border-radius: 8px;
+  display: block;
+  border: 0;
 }
 
 .area-title {
@@ -43,5 +43,15 @@
 }
 
 body {
-    overflow-x: hidden;
+  width: 100%;
+　overflow-x: hidden;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .map iframe {
+    height: 250px;
+  }
 }
