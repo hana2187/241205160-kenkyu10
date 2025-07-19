@@ -91,6 +91,20 @@
     transition: transform 0.3s ease-in-out;
 }
 
+.hayatama-gallery img {
+    width: 90%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 1em;
+}
+
+.hayatama-gallery img:hover {
+    transform: scale(1.05);
+}
+
+
 /* マウスオーバー時に画像を1.05倍に拡大 */
 .gallery-flex img:hover {
     transform: scale(1.05);
